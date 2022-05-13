@@ -91,6 +91,7 @@ p {
 
 .dropdown-content:hover {
     background-color: #ddd;
+    z-index: 5;
 
 }
 
