@@ -5,10 +5,18 @@
 
 body, html {
     min-height: 100%; 
-    background: white;
+    background: #4A3F7B;
     margin: 0;
     padding: 0;
 
+}
+
+h1 {
+    color: #FFE0A3;
+}
+
+p {
+    color: #F7F0ED;
 }
 
 .navbar {
@@ -89,8 +97,8 @@ body, html {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imgs/aesthetic.gif");
-    height: 20%;
+    background-image: url("imgs/fresnoState.jpg");
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,4 +117,23 @@ body, html {
 
   p {
     font-family: 'Lato', sans-serif;
+}
+
+.content{
+    padding: 16px;
+    margin-top: 30px;
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #FFE0A3;
+    text-align: center;
+    background: #6661B3;
+    margin-block-start: 10rem;
 }
