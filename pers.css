@@ -37,7 +37,7 @@ p {
     display: flex;
     justify-content: flex-end;
     font-size: 20px;
-    color: black;
+    color: #2e2557;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -54,7 +54,7 @@ p {
 .dropdown .dropbtn {
     border: none;
     outline: none;
-    color: black;
+    color: #2e2557;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -63,7 +63,8 @@ p {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #8F1A2D;
+    color: #F7F0ED;
 
 }
 
@@ -118,6 +119,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #F7F0ED;
+
   }
 
   p {
@@ -130,6 +132,13 @@ p {
     margin-top: 30px;
     height: 100%;
 
+}
+
+.in-text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 10rem; 
+    padding-right: 10rem;
 }
 
 .column {
@@ -158,6 +167,41 @@ p {
 
 }
 
+.butt-pos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.butt-link{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #F7F0ED;
+    background-color: #8F1A2D;
+    height: 48px;   
+
+}
+
+.butt-link:hover{
+        transform: scale(1.04);
+        background-color: #FFE0A3;
+        color: #4A3F7B;
+    }
 
 
 footer {
