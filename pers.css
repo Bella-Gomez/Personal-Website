@@ -65,8 +65,8 @@ p {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: #FFE0A3;
-    color: #2e2557;
+    background-color: #8F1A2D;
+    color: #F7F0ED;
 
 }
 
@@ -93,7 +93,7 @@ p {
 }
 
 .dropdown-content:hover {
-    background-color: #ddd;
+    background-color: #F7F0ED;
     z-index: 5;
 
 }
@@ -133,6 +133,10 @@ p {
     margin-top: 20px;
     height: 100%;
 
+}
+
+.res ul{
+    color: #F7F0ED;
 }
 
 .in-text {
